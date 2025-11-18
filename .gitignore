@@ -1,0 +1,82 @@
+# ----------------------------------------
+#  Python Virtual Environment
+# ----------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------------------------
+#  Python Build / Cache
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.pyo
+*.pdb
+*.so
+*.dll
+
+# ----------------------------------------
+#  Django
+# ----------------------------------------
+*.log
+staticfiles/
+media/
+db.sqlite3
+local_settings.py
+
+# Migrations (optional—only ignore if they are auto-generated)
+# **Recommended:** DO NOT ignore migrations for real apps
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# ----------------------------------------
+#  Environment Variables
+# ----------------------------------------
+.env
+.env.*
+*.env
+
+# ----------------------------------------
+#  IDE / Editor
+# ----------------------------------------
+
+# IntelliJ IDEA / PyCharm / JetBrains
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# ----------------------------------------
+#  OS Files
+# ----------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------
+#  Node + Frontend (if using React/Angular/Vue)
+# ----------------------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build directories
+/dist/
+/build/
+/coverage/
+
+# ----------------------------------------
+#  Miscellaneous
+# ----------------------------------------
+*.sqlite3
